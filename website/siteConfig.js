@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'supista', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Supista', // Title for your website.
+  tagline: 'documentation for supista',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -31,7 +31,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'test-site',
-  organizationName: 'facebook',
+  organizationName: 'SUPISTA',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -40,22 +40,22 @@ const siteConfig = {
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    // {page: 'help', label: 'Help'},
+    // {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  // headerIcon: 'img/logo.png',
+  // footerIcon: 'img/logo.png',
+  favicon: 'img/logo.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#7f0921',
-    secondaryColor: '#580617',
+    primaryColor: '#2d4386',
+    secondaryColor: '#fdb900',
   },
 
   /* Custom fonts for website */
