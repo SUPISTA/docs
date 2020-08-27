@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "documentation for supista",
     "docs": {
       "doc1": {
         "title": "Latin-ish",
@@ -15,6 +15,9 @@
       "doc3": {
         "title": "This is document number 3"
       },
+      "doc42": {
+        "title": "Sample test"
+      },
       "doc4": {
         "title": "Other Document"
       },
@@ -22,11 +25,15 @@
         "title": "Fifth Document"
       }
     },
-    "links": {},
+    "links": {
+      "Docs": "Docs",
+      "API": "API"
+    },
     "categories": {
       "Docusaurus": "Docusaurus",
       "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Second Category": "Second Category",
+      "NEW Category": "NEW Category"
     }
   },
   "pages-strings": {
