@@ -31,14 +31,14 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>About Us</h5>
-            <p style={{color:'rgba(255, 255, 255, 0.6)',paddingRight:'7px'}}>
+            <p style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
             SUPISTA - a Finnish word which literally means Abridge.
             Like our name, we abridge the work of our users and allow them to focus on what's really important.
             </p>
           </div>
           <div>
             <h5>Contact Info</h5>
-            <p style={{color:'rgba(255, 255, 255, 0.6)',paddingRight:'7px',fontSize:'0.8em'}}>
+            <p style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
             APICON SOLUTIONS PRIVATE LIMITED <br></br>
             B-142, 3RD FLOOR,<br></br>
             FREEDOM FIGHTERS ENCLAVE,<br></br>
@@ -47,12 +47,18 @@ class Footer extends React.Component {
             </p>
             Email : <a href = "mailto: contact@apicon.io">contact@apicon.io</a>
           </div>
-          <div>
+          <div >
             <h5>Important Link</h5>
-              <a href="#">User story</a>
-              <a href="http://docs.apicon.io/en/latest/">Documentation</a>
-              <a href="signup.html">Sign Up</a>
-              <a href="#"> Get Sign In URL</a>
+              <a style={{color:'#7b838a'}} href="#">User story</a>
+              <a style={{color:'#7b838a'}} href="http://docs.apicon.io/en/latest/">Documentation</a>
+              <a style={{color:'#7b838a'}} href="signup.html">Sign Up</a>
+              <a style={{color:'#7b838a'}} href="#"> Get Sign In URL</a>
+          </div>
+          <div style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
+            <h5>Newsletter</h5>
+            <p style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
+            Join our Newsletter to get notified about all our monthly updates!
+            </p>
           </div>
         </section>
         <section className="copyright">Copyright ©2020 All rights reserved | APICON SOLUTIONS PRIVATE LIMITED</section>
