@@ -56,6 +56,8 @@ class Footer extends React.Component {
 }
     return (
       <footer className="nav-footer" id="footer" style={{background:'#1f2338'}}>
+        <br></br>
+        <br></br>
         <section className="sitemap">
           <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
@@ -69,13 +71,16 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5 style={{fontSize:'20px'}}>About Us</h5>
+            <br></br>
             <p style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
             SUPISTA - a Finnish word which literally means Abridge.
             Like our name, we abridge the work of our users and allow them to focus on what's really important.
             </p>
+            <h1 style={{color: 'white'}}>SUPISTA</h1>
           </div>
           <div>
             <h5 style={{fontSize:'20px'}}>Contact Info</h5>
+            <br></br>
             <p style={{color:'#7b838a',paddingRight:'9px',fontSize:'14px'}}>
             APICON SOLUTIONS PRIVATE LIMITED <br></br>
             B-142, 3RD FLOOR,<br></br>
@@ -83,10 +88,11 @@ class Footer extends React.Component {
             NEB SARAI,<br></br>
             SOUTH WEST DELHI - 110068
             </p>
-            <a href = "mailto: contact@apicon.io">Email : contact@apicon.io</a>
+            <a href = "mailto: contact@apicon.io">Email : <span style={{color: '#007bff'}}> contact@apicon.io</span></a>
           </div>
           <div >
             <h5 style={{fontSize:'20px'}}>Important Link</h5>
+            <br></br>
               <a style={{color:'#7b838a'}} href="#">User story</a>
               <a style={{color:'#7b838a'}} href="http://docs.apicon.io/en/latest/">Documentation</a>
               <a style={{color:'#7b838a'}} href="signup.html">Sign Up</a>
@@ -94,28 +100,24 @@ class Footer extends React.Component {
           </div>
           <div style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
             <h5 style={{fontSize:'20px'}}>Newsletter</h5>
+            <br></br>
             <p style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
             Join our Newsletter to get notified about all our monthly updates!
-            <div className="form-wrap" id="mc_embed_signup">
+            <div >
                         <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
                         method="get">
-                        <div className="input-group">
-                            <input type="email" style={newsletter} name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"></input>   
+                        <div  style={group}>
+                            <input type="email" style={newsletter} name="EMAIL" placeholder="Your Email Address"></input>   
                                 <button style={icon} type="submit">
                                     <FaTelegramPlane />
                                 </button>   
                         </div>
-                        <div style={{position: 'absolute', left: '-5000px'}}>
-                            <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text"></input>
-                        </div>
-
-                        <div className="info"></div>
                     </form>
                 </div>
             </p>
           </div>
         </section>
-        <section style={{}} className="copyright">Copyright ©2020 All rights reserved | APICON SOLUTIONS PRIVATE LIMITED
+        <section  className="copyright">Copyright ©2020 All rights reserved | APICON SOLUTIONS PRIVATE LIMITED
         </section>
       </footer>
     );
