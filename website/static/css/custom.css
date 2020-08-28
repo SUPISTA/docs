@@ -11,6 +11,9 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    .nav-footer{
+        padding-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 1023px) {

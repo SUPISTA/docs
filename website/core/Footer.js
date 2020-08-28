@@ -72,7 +72,8 @@ class Footer extends React.Component {
       marginLeft: 'auto',
       maxWidth: '60%',
       borderTop: '1px solid #4c4f60',
-      paddingTop: '50px',
+      paddingTop: '20px',
+      paddingBottom: '50px'
     }
     const social = {
       marginLeft: '3px',
@@ -129,10 +130,10 @@ class Footer extends React.Component {
               <a style={{color:'#7b838a'}} href="signup.html">Sign Up</a>
               <a style={{color:'#7b838a'}} href="#"> Get Sign In URL</a>
           </div>
-          <div style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
+          <div style={{color:'#7b838a',paddingRight:'100px',fontSize:'14px'}}>
             <h5 style={{fontSize:'20px'}}>Newsletter</h5>
             <br></br>
-            <p style={{color:'#7b838a',paddingRight:'20px',fontSize:'16px'}}>
+            <p style={{color:'#7b838a',paddingRight:'50px',fontSize:'16px'}}>
             Join our Newsletter to get notified about all our monthly updates!
             <div >
                         <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
@@ -149,11 +150,11 @@ class Footer extends React.Component {
           </div>
         </section>
         <section style={container1} className="copyright">
-          <span style={{float:'left'}}>
+          <span style={{float: 'left'}}>
 Copyright ©2020 All rights reserved | APICON SOLUTIONS PRIVATE LIMITED 
           </span>
           
-        <span >
+        <span style={{float: 'right'}}>
                 <a style={social} href="https://www.facebook.com/apicon.io"><FaFacebookF /></a>
                 <a style={social} href="https://twitter.com/apicon_io"><FaTwitter /></a>
                 <a style={social} href="https://www.linkedin.com/company/apicon-io/"><FaLinkedinIn /></a>
