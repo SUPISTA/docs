@@ -1,5 +1,5 @@
 const React = require('react');
-import { FaTelegramPlane } from 'react-icons/fa';
+import { FaTelegramPlane,FaFacebookF,FaTwitter,FaLinkedinIn } from 'react-icons/fa';
 
 class Footer extends React.Component {
   docUrl(doc) {
@@ -14,7 +14,7 @@ class Footer extends React.Component {
     const newsletter = {
       height: '40px',
       border: '1px solid #eeeeee',
-      width: '67% ',
+      width: '75% ',
       fontWeight: '400',
       background: '#fff',
       paddingLeft: '20px',
@@ -22,11 +22,11 @@ class Footer extends React.Component {
       fontSize: '14px',
       padding: '10px 22px',
       borderRadius: '25px',
-      color: '#888888',
+      color: 'black',
       marginRight: '-25px',
-  }
+    }
   
-  const icon = {
+    const icon = {
       borderRadius: '24px',
       padding: '6px 21px 4px 14px',
       border: '0',
@@ -45,20 +45,51 @@ class Footer extends React.Component {
       userSelect: 'none',
       fontSize: '1.3rem',
       lineHeight: '1.5',
-  }
+    }
 
-  const group = {
-    position: 'relative',
-    display: 'flex',
-    flexWrap: 'wrap',
-    alignItems: 'stretch',
-    width: '100%',
-}
+    const group = {
+        position: 'relative',
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'stretch',
+        width: '100%',
+    }
+
+    const container = {
+      width: '100%',
+      paddingRight: '15px',
+      paddingLeft: '15px',
+      marginRight: 'auto',
+      marginLeft: 'auto',
+      maxWidth: '70%'
+    }
+
+    const container1 = {
+      width: '100%',
+      paddingRight: '15px',
+      paddingLeft: '15px',
+      marginRight: 'auto',
+      marginLeft: 'auto',
+      maxWidth: '70%',
+      borderTop: '1px solid #4c4f60',
+      paddingTop: '10px',
+    }
+    const social = {
+      marginLeft: '3px',
+      width: '32px',
+      color: '#8f919c',
+      display: 'inline-grid',
+      textAlign: 'center',
+      height: '32px',
+      alignContent: 'center',
+    }
+
     return (
       <footer className="nav-footer" id="footer" style={{background:'#1f2338'}}>
         <br></br>
         <br></br>
-        <section className="sitemap">
+        <br></br>
+        <section className="sitemap" style={container}>
           <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <img
@@ -72,8 +103,8 @@ class Footer extends React.Component {
           <div>
             <h5 style={{fontSize:'20px'}}>About Us</h5>
             <br></br>
-            <p style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
-            SUPISTA - a Finnish word which literally means Abridge.
+            <p style={{color:'#7b838a',paddingRight:'40px',fontSize:'16px'}}>
+            SUPISTA - a Finnish word which literally means Abridge. <br></br>
             Like our name, we abridge the work of our users and allow them to focus on what's really important.
             </p>
             <h1 style={{color: 'white'}}>SUPISTA</h1>
@@ -101,7 +132,7 @@ class Footer extends React.Component {
           <div style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
             <h5 style={{fontSize:'20px'}}>Newsletter</h5>
             <br></br>
-            <p style={{color:'#7b838a',paddingRight:'7px',fontSize:'14px'}}>
+            <p style={{color:'#7b838a',paddingRight:'20px',fontSize:'16px'}}>
             Join our Newsletter to get notified about all our monthly updates!
             <div >
                         <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
@@ -117,7 +148,14 @@ class Footer extends React.Component {
             </p>
           </div>
         </section>
-        <section  className="copyright">Copyright ©2020 All rights reserved | APICON SOLUTIONS PRIVATE LIMITED
+        <section style={container1} className="copyright">
+          Copyright ©2020 All rights reserved | APICON SOLUTIONS PRIVATE LIMITED 
+        <div style={{padding: '5px'}}>
+                <a style={social} href="https://www.facebook.com/apicon.io"><FaFacebookF /></a>
+                <a style={social} href="https://twitter.com/apicon_io"><FaTwitter /></a>
+                <a style={social} href="https://www.linkedin.com/company/apicon-io/"><FaLinkedinIn /></a>
+        </div>
+
         </section>
       </footer>
     );
