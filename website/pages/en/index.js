@@ -190,7 +190,7 @@ class Index extends React.Component {
       paddingLeft: '15px',
       marginRight: 'auto',
       marginLeft: 'auto',
-      maxWidth: '75%'
+      maxWidth: '1400px'
     }
 
     return (
