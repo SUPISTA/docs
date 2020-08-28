@@ -1,15 +1,6 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 const React = require('react');
-
 const CompLibrary = require('../../core/CompLibrary.js');
-
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
+const MarkdownBlock = CompLibrary.MarkdownBlock; 
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
@@ -29,19 +20,6 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const Logo = (props) => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
-      </div>
-    );
-
-    const ProjectTitle = (props) => (
-      <h2 className="projectTitle">
-        {props.title}
-        <small>{props.tagline}</small>
-      </h2>
-    );
-
     const PromoSection = (props) => (
       <div className="section promoSection">
         <div className="promoRow">
@@ -59,15 +37,18 @@ class HomeSplash extends React.Component {
     );
 
     return (
-      <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
-        <div className="inner">
-          <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
-          <PromoSection>
-            <Button href={docUrl('doc1.html')}>Documentation</Button>
-          </PromoSection>
-        </div>
-      </SplashContainer>
+      <div style={{background: `url(${baseUrl}img/banner.jpg)`,color: 'white',height:'400px',paddingTop:'30px'}}>
+        <SplashContainer>
+          <div className="inner">
+            <div style={{fontSize: '3.5em',fontWeight: '500'}}>SUPISTA</div>
+            <div style={{fontSize: '2.0em'}}>Documentation for Supista</div>
+            <PromoSection>
+              <Button href={docUrl('doc1.html')}><span style={{color: 'White',fontSize:'1.5em'}}>Get Started</span></Button>
+            </PromoSection>
+          </div>
+        </SplashContainer>
+      </div>
+      
     );
   }
 }
@@ -83,23 +64,14 @@ class Index extends React.Component {
         id={props.id}
         background={props.background}>
         <GridBlock
-          align="center"
+          align="left"
           contents={props.children}
           layout={props.layout}
         />
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
-
-    const TryOut = () => (
+    const TryOut1 = () => (
       <Block id="try">
         {[
           {
@@ -114,30 +86,47 @@ class Index extends React.Component {
         ]}
       </Block>
     );
-
-    const Description = () => (
-      <Block background="dark">
+    const TryOut2 = () => (
+      <Block id="try">
         {[
           {
             content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
+              'To make your landing page more attractive, use illustrations! Check out ' +
+              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
+              'The illustrations you see on this page are from unDraw.',
+            image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'right',
-            title: 'Description',
+            title: 'Wonderful SVG Illustrations',
           },
         ]}
       </Block>
     );
-
-    const LearnHow = () => (
-      <Block background="light">
+    const TryOut3 = () => (
+      <Block id="try">
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+              'To make your landing page more attractive, use illustrations! Check out ' +
+              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
+              'The illustrations you see on this page are from unDraw.',
+            image: `${baseUrl}img/undraw_code_review.svg`,
+            imageAlign: 'left',
+            title: 'Wonderful SVG Illustrations',
+          },
+        ]}
+      </Block>
+    );
+    const TryOut4 = () => (
+      <Block id="try">
+        {[
+          {
+            content:
+              'To make your landing page more attractive, use illustrations! Check out ' +
+              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
+              'The illustrations you see on this page are from unDraw.',
+            image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'Wonderful SVG Illustrations',
           },
         ]}
       </Block>
@@ -147,16 +136,19 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nulla numquam libero. <br></br> Temporibus repellendus autem officia cumque porro iste labore consectetur amet. Neque sint at nisi itaque suscipit consequuntur est!',
             imageAlign: 'top',
             title: 'Feature One',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nulla numquam libero. <br></br> Temporibus repellendus autem officia cumque porro iste labore consectetur amet. Neque sint at nisi itaque suscipit consequuntur est!',
             imageAlign: 'top',
             title: 'Feature Two',
+          },
+          {
+            content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nulla numquam libero. <br></br> Temporibus repellendus autem officia cumque porro iste labore consectetur amet. Neque sint at nisi itaque suscipit consequuntur est!',
+            imageAlign: 'top',
+            title: 'Feature Three',
           },
         ]}
       </Block>
@@ -192,16 +184,31 @@ class Index extends React.Component {
       );
     };
 
+    const container = {
+      width: '100%',
+      paddingRight: '15px',
+      paddingLeft: '15px',
+      marginRight: 'auto',
+      marginLeft: 'auto',
+      maxWidth: '75%'
+    }
+
     return (
-      <div>
+      <div >
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          {/* <Features /> */}
-          {/* <FeatureCallout /> */}
-          <LearnHow />
-          <TryOut />
-          {/* <Description />
-          <Showcase /> */}
+          <Features />
+          <div style={container}>
+            <hr></hr>
+            <TryOut1 />
+            <hr></hr>
+            <TryOut2 />
+            <hr></hr>
+            <TryOut3 />
+            <hr></hr>
+            <TryOut4 />
+          </div>
+          
         </div>
       </div>
     );

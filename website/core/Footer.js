@@ -61,18 +61,18 @@ class Footer extends React.Component {
       paddingLeft: '15px',
       marginRight: 'auto',
       marginLeft: 'auto',
-      maxWidth: '70%'
+      maxWidth: '1400px'
     }
 
     const container1 = {
-      width: '100%',
+      width: '90%',
       paddingRight: '15px',
       paddingLeft: '15px',
       marginRight: 'auto',
       marginLeft: 'auto',
-      maxWidth: '70%',
+      maxWidth: '60%',
       borderTop: '1px solid #4c4f60',
-      paddingTop: '10px',
+      paddingTop: '50px',
     }
     const social = {
       marginLeft: '3px',
@@ -149,12 +149,15 @@ class Footer extends React.Component {
           </div>
         </section>
         <section style={container1} className="copyright">
-          Copyright ©2020 All rights reserved | APICON SOLUTIONS PRIVATE LIMITED 
-        <div style={{padding: '5px'}}>
+          <span style={{float:'left'}}>
+Copyright ©2020 All rights reserved | APICON SOLUTIONS PRIVATE LIMITED 
+          </span>
+          
+        <span >
                 <a style={social} href="https://www.facebook.com/apicon.io"><FaFacebookF /></a>
                 <a style={social} href="https://twitter.com/apicon_io"><FaTwitter /></a>
                 <a style={social} href="https://www.linkedin.com/company/apicon-io/"><FaLinkedinIn /></a>
-        </div>
+        </span>
 
         </section>
       </footer>
