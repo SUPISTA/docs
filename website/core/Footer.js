@@ -8,6 +8,12 @@ class Footer extends React.Component {
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     return `${baseUrl}${docsPart}${doc}`;
   }
+  baseUrl(img) {
+    const baseUrl = this.props.config.baseUrl;
+    const docsUrl = this.props.config.docsUrl;
+    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
+    return `${baseUrl}/${img}`;
+  }
 
   
   render() {
@@ -70,7 +76,7 @@ class Footer extends React.Component {
       paddingLeft: '15px',
       marginRight: 'auto',
       marginLeft: 'auto',
-      maxWidth: '60%',
+      maxWidth: '1300px',
       borderTop: '1px solid #4c4f60',
       paddingTop: '20px',
       paddingBottom: '50px'
@@ -150,16 +156,14 @@ class Footer extends React.Component {
           </div>
         </section>
         <section style={container1} className="copyright">
-          <span style={{float: 'left'}}>
-Copyright ©2020 All rights reserved | APICON SOLUTIONS PRIVATE LIMITED 
+          <span style={{float: 'left',fontSize:'16px'}}>
+              Copyright ©2020 All rights reserved | APICON SOLUTIONS PRIVATE LIMITED 
           </span>
-          
-        <span style={{float: 'right'}}>
+          <span style={{float: 'right'}}>
                 <a style={social} href="https://www.facebook.com/apicon.io"><FaFacebookF /></a>
                 <a style={social} href="https://twitter.com/apicon_io"><FaTwitter /></a>
                 <a style={social} href="https://www.linkedin.com/company/apicon-io/"><FaLinkedinIn /></a>
-        </span>
-
+          </span>
         </section>
       </footer>
     );

@@ -62,8 +62,8 @@ const siteConfig = {
   /*
   fonts: {
     myFont: [
-      "Times New Roman",
-      "Serif"
+      "Poppins",
+      "Sans-Serif"
     ],
     myOtherFont: [
       "-apple-system",
