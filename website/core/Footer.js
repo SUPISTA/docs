@@ -114,7 +114,10 @@ class Footer extends React.Component {
             SUPISTA - a Finnish word which literally means Abridge. <br></br>
             Like our name, we abridge the work of our users and allow them to focus on what's really important.
             </p>
-            <h1 style={{color: 'white'}}>SUPISTA</h1>
+            <img
+            src={`${this.props.config.baseUrl}img/logo.png`}
+            alt="Facebook Open Source"
+          />
           </div>
           <div>
             <h5 style={{fontSize:'20px'}}>Contact Info</h5>

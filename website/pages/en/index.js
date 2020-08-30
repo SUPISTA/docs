@@ -40,7 +40,12 @@ class HomeSplash extends React.Component {
       <div style={{background: `url(${baseUrl}img/banner.jpg)`,color: 'white',height:'400px',paddingTop:'30px'}}>
         <SplashContainer>
           <div className="inner">
-            <div style={{fontSize: '3.5em',fontWeight: '500'}}>SUPISTA</div>
+          <img
+            src={`${baseUrl}img/logo.png`}
+            alt="Facebook Open Source"
+            width='200'
+            style={{padding:'25px'}}
+          />
             <div style={{fontSize: '2.0em'}}>Documentation for Supista</div>
             <PromoSection>
               <Button href={docUrl('doc1.html')}><span style={{color: 'White',fontSize:'1.5em'}}>Get Started</span></Button>
