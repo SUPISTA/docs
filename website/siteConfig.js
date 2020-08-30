@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Supista', // Title for your website.
+  title: '', // Title for your website.
   tagline: 'documentation for supista',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -48,7 +48,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  // headerIcon: 'img/logo.png',
+  headerIcon: 'img/logo.png',
   // footerIcon: 'img/logo.png',
   favicon: 'img/logo.png',
 

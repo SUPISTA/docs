@@ -1015,4 +1015,6 @@ html {
   .affix {
     position: fixed;
   }
-  
+  body {
+    font-family: $myFont;
+  }
