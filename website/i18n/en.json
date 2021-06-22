@@ -6,17 +6,19 @@
     "tagline": "documentation for supista",
     "docs": {
       "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
+        "title": "User Designation",
+        "sidebar_label": "what is user designation?"
       },
       "doc2": {
-        "title": "document number 2"
+        "title": "App Setting",
+        "sidebar_label": "What is app setting?"
       },
       "doc3": {
-        "title": "This is document number 3"
+        "title": "Config Layout",
+        "sidebar_label": "what is Config layout?"
       },
       "doc42": {
-        "title": "Sample test"
+        "title": "Sample test 1"
       },
       "doc4": {
         "title": "Other Document"

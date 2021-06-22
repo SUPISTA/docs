@@ -141,19 +141,24 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nulla numquam libero. <br></br> Temporibus repellendus autem officia cumque porro iste labore consectetur amet. Neque sint at nisi itaque suscipit consequuntur est!',
+            content: 'Fastest and automated way to analyse all the key point indicators which are relevant for you Business Growth.',
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Decision Management System',
           },
           {
-            content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nulla numquam libero. <br></br> Temporibus repellendus autem officia cumque porro iste labore consectetur amet. Neque sint at nisi itaque suscipit consequuntur est!',
+            content: 'Our software is already equiped with a completely customisable Customer Relationship Management Software for you.',
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Customer Relationship Management (CRM)',
           },
           {
-            content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nulla numquam libero. <br></br> Temporibus repellendus autem officia cumque porro iste labore consectetur amet. Neque sint at nisi itaque suscipit consequuntur est!',
+            content: 'Develop a hassle free & tailor-made software as per the need of your business on our Platform.',
             imageAlign: 'top',
-            title: 'Feature Three',
+            title: 'Business Process Automations',
+          },
+          {
+            content: 'With our Supista, you can develop your app or SaaS server and dashboard in a hassle free way.',
+            imageAlign: 'top',
+            title: 'Your own SaaS & App Server and Dashboard',
           },
         ]}
       </Block>
