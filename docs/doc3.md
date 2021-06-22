@@ -1,14 +1,42 @@
 ---
 id: doc3
-title: This is document number 3
+title: Config Layout
+sidebar_label: what is Config layout?
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+## What is Config layout?
+Configuration layout describes how two-dimensional views are arranged in the dashboard and can be used for your customizations. When you save a custom layout configuration, you save the arrangement of the data in the dashboard.
+In the configuration layout, you can select the module and submodule from the top and can add necessary fields to your form.
+There are four subcategories in custom layout namely:- Form layout, Workflow, Settings, and Data visualizations.
+![Form layout](./assets/form-layout.png)
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+### Form Layout
+In the form layout, you can add all the necessary fields to your modules and submodules. You can add various data fields like name, email, mobile no, job title, company name, address etc. 
+#### To add a Field
+* You can click on the **ADD FIELD** button to add a new field. After clicking on the button a form will appear where you can add the Name and type of the field. Also if you want you can add **validation** to the field name like a specific type etc and an error message to display if someone try to add another data type into it. 
+![Add new field](./assets/add-new-field.png)
+You can also **Set Roles** to your feild like Read, create, update etc. that is you can give different access to different categories and click "save".
+![set roles](./assets/set-roles.png)
+For eg: The owner will have all the access while the users will only have the reading access.
+#### To edit the saved field
+* Click on the field, it will open where you can edit the Field name, Type, Validations, Error message and Roles. But the **"Key"** must not change beacause it can alter the location of data in website.
+![edit field](./assets/edit-form-field.png)
+#### To delete the field
+* you can click on the red trash bucket to delete your field.
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+### Work flow
+In the Work flow, you can create a hierarchy of the workflow in your company. You can dive your company work into different states and can assign roles to each state. Here you can even set the access roles to each state and manage them.
+![Adding user](./assets/workflow.png)
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+#### Adding the new state in work flow
+* Click on the "Add new work" button to create a state in work flow. Then fill in the state name and coloum name. Click on "add new" button to add another coloum to the state. You can add as many coloumn as you want. You can also provide access roles to the state by selecting it and can even create buttons by clicking the "Add new" button and provide name and access role to the button also.
+Moreover in advance settings you can add another button with some other functionality like downloading PDF etc.
+![Adding user](./assets/workflow-edit.png)
+![Adding user](./assets/workflow-button.png)
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+#### Delete the state
+* To delete the state simply click on the **cross button** on the top of the state card.
+
+### Settings
+
+### Data visualization
