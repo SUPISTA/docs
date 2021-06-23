@@ -1,8 +1,8 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"],
+    "User Designation": ["doc1"],
+    "App Setting": ["doc2"],
+    "Config Layout": ["doc3"],
     "NEW Category": ["doc42"]
   },
   "docs-other": {
