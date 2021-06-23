@@ -81,12 +81,14 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+              'Real-time Data Charts' +
+              ' provides you a real time analysis to all your data so that you never miss out any details. '+
+              'You can use our docs to create your own modules for your company to simply manage your work.' +
+              'With our API friendly & secured server, you can collect data from your Supista Application (Web & Mobile interface) '+
+              'or even you current application or Database.',
+            image: `${baseUrl}img/auto-business.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Analyse your data',
           },
         ]}
       </Block>
@@ -96,12 +98,13 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+              'Our software helps you to '+
+              'develop a tailor-made customizable Business Solution that fits your need and adapts to your requirements.'+
+             'Supista Provides Web Application as well as user-friendly mobile apps for App and Play Store for efficiently and seamlessly running of your business.'+
+              'Our docs hepls you to develop your software on our No-Code Platform with ease of assigning extensive user-roles to allocate responsibilities to your Team.',
+            image: `${baseUrl}img/details-1.png`,
             imageAlign: 'right',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Develop Customizable software',
           },
         ]}
       </Block>
@@ -111,32 +114,21 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
-          },
-        ]}
-      </Block>
-    );
-    const TryOut4 = () => (
-      <Block id="try">
-        {[
-          {
-            content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'right',
-            title: 'Wonderful SVG Illustrations',
-          },
-        ]}
-      </Block>
-    );
+              'With the role access based customisable features we are taking the development of business software to the next level.'+
 
+              'Be it Supply Chain Management, HR Managament system, Inventory management system or software as vast as Entrprise Resource Planning (ERP) you can develop it on SUPISTA.'+
+              'Our docs helps you to achieve all of these.'+
+              'Focus on what is most important for your business'+
+              'Seamless integration with your existing solution through APIs'+
+              "Forget about developers cost, you won't even need programming.",
+            image: `${baseUrl}img/grow.svg`,
+            imageAlign: 'left',
+            title: 'Grow while you Go',
+          },
+        ]}
+      </Block>
+    );
+  
     const Features = () => (
       <Block layout="fourColumn">
         {[
@@ -217,8 +209,6 @@ class Index extends React.Component {
             <TryOut2 />
             <hr></hr>
             <TryOut3 />
-            <hr></hr>
-            <TryOut4 />
           </div>
           
         </div>
