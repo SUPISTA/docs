@@ -32,9 +32,9 @@
       "API": "API"
     },
     "categories": {
-      "Docusaurus": "User Designation",
-      "First Category": "App Setting",
-      "Second Category": "Configuration Layout",
+      "Docusaurus": "Docusaurus",
+      "First Category": "First Category",
+      "Second Category": "Second Category",
       "NEW Category": "NEW Category"
     }
   },
