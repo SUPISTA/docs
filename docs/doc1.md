@@ -6,7 +6,7 @@ sidebar_label: what is user designation?
 
 ## What is User Designation?
 
-On the user designation page, you can give a **hierarchy** to various designations of your company, according to you. It follows the order **top to bottom** where the designation at the top (ie- Super User) has all the admin rights. The hierarchical structure form like a tree, where the upper node is parent to the lower nodes. Thus you can plan accordingly and can provide different access to each designation at various levels.
+On the user designation page, you can give a **hierarchy** to various designations of your company, as per your need. It follows an order **top to bottom** where the designation at the top (ie- Super User) has all the admin rights. The hierarchical structure forms like a tree, where the upper node acts as a parent to the lower nodes. Thus you can plan accordingly and can provide different access to each designation at various levels.
 
 ![hierarchy table](./assets/hierarchy-table.png)
 
