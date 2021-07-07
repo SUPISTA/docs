@@ -32,10 +32,11 @@
       "API": "API"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category",
-      "NEW Category": "NEW Category"
+      "User Designation": "User Designation",
+      "App Setting": "App Setting",
+      "User Configuration": "User Configuration",
+      "NEW Category": "NEW Category",
+      "First Category": "First Category"
     }
   },
   "pages-strings": {
