@@ -42,6 +42,7 @@ In the multi-language support system, you can add various languages from the men
 * You can click on the **ADD LANGUAGE** button and select all the languages from the menu, in which you want the translations.
 * After selecting the desired language option, you can click the **AUTO TRANSLATE REMAINING TEXT** button to watch the translations.
 * To **remove** the added language from the dashboard, you can open the "ADD LANGUAGE" menu and can deselect the options which you do not want.
+
 ![sub-module](./assets/add-lang-menu.png)
 
 ![sub-module](./assets/translated-dash.png)
