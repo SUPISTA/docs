@@ -1,19 +1,19 @@
 ---
 id: doc2
-title: App Setting
-sidebar_label: What is app setting?
+title: App Settings
+sidebar_label: What is App settings?
 ---
-## What is app setting?
+## What is App settings?
 
-In App setting there are three subcategories namely **General setting**, **Module setting** and **Multi-language support** 
+In App settings there are three subcategories namely **General settings**, **Module settings** and **Multi-language support** 
 where you can redesign and recreate your modules. It is for the overall modification of modules and sub-modules according to your needs and interest.
 
-## General setting
-In the general setting, you can change the colors, name, Header, footer, and others of your website.
+## General settings
+In the general settings, you can change the colors, Name, Header, footer, and others of your website.
 
-## Module Setting
+## Module Settings
 
-In the *module setting*, you can modify the modules already created or even add new modules. You can also provide access according to you about each module.
+In the *module settings*, you can modify the modules already created or even add new modules. You can also provide access according to you about each module.
 
 ![new-module](./assets/new-module.png)
 

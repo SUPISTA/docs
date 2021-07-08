@@ -14,7 +14,7 @@ In the form layout, you can add all the necessary fields to your modules and sub
 * You can click on the **ADD FIELD** button to add a new field. After clicking the button a form will appear where you can add the Name and type of the field. Also if you want you can add **validation** to the field name like a specific type etc and an error message to display if someone try to add another data type into it. 
 ![Adding new field](./assets/add-new-field.png)
 You can also **Set Roles** in your field like Read, create, update and others. In other words, you can give different access to different categories and click "save". 
-![setting roles](./assets/set-roles.png)
+![settings roles](./assets/set-roles.png)
 For eg: The owner will have all the access while the users will only have reading access.
 ### To edit the saved field
 * Click on the field, it will open where you can edit the Field name, Type, Validations, Error message and Roles. But the **"Key"** must not change beacause it can alter the location of data on the website.
@@ -35,7 +35,7 @@ In the Work flow, you can create a hierarchy of the workflow in your company. Yo
 * To delete the state simply click the **cross button** on top of the state card.
 
 ## Settings
-In settings, you can do many things like creating, modify, enhance and even delete the module or submodule which you want. In settings, you can select module and submodule from the top, in which you want to make changes. In settings you can do various actions like Setting roles, Create, Update, Read. You can change the form layout and can add a new value to the database etc.
+In settings, you can do many things like creating, modify, enhance and even delete the module or submodule which you want. In settings, you can select module and submodule from the top, in which you want to make changes. In settings you can do various actions like assigning roles, Create, Update, Read. You can change the form layout and can add a new value to the database etc.
 ### Set Roles
 * Here you can give various types of access to different Users (Stakeholders). 
 * There are four options Read, Update, Create, Delete. 
@@ -48,7 +48,7 @@ In settings, you can do many things like creating, modify, enhance and even dele
 * In create you can make a new form by entering the name whereas in Update you can modify the form by entering it's name.
 * The **No back** button allows you to have or not, a backward navigation button on your navbar in form page.
 
-![Create setting](./assets/setting-create.png)
+![Create settings](./assets/setting-create.png)
 
 
 ### Read
@@ -56,7 +56,7 @@ In settings, you can do many things like creating, modify, enhance and even dele
 * You can even add a new form to the module by clicking the " ADD NEW FORM" button where you can add necessary details to your form. Like Name of form, Column name, input type, Input, and also the "access" permissions to various stakeholders.
 * You can delete the form by clicking the "red bucket" on the form.
 
-![Read setting](./assets/setting-read.png)
+![Read settings](./assets/setting-read.png)
 
 ### Other Settings
 Here, you can change the overall design of your form like layout, styling etc.
@@ -71,17 +71,17 @@ Here, you can change the overall design of your form like layout, styling etc.
 * To delete the form from the module you can click on the red bucket button.
 * There is a "reference variable" and a "reference name" which you can change according to your data. Be careful while dealing with "id" because it is unique for a module and if changed can alter the storing location of that field in the database.
 
-![Other setting](./assets/setting-other.png)
+![Other settings](./assets/setting-other.png)
 
 
-### Advance setting
+### Advance settings
 In advance, you have a database and login form
 * **Database**
     * You can use the database of other modules and submodules by providing the Module name and sub-module name into your newly created module.
 * **Login form**
     * You can convert any form into a login form us using this. You can even add more information to it such as Emailid, password, user id, and Role to the form.  
 
-![Advance setting](./assets/setting-advance.png)
+![Advance settings](./assets/setting-advance.png)
 
 ## Data visualization
 Data visualization is the alter method of visualizing your data in other ways like bar graphs, pie-charts, graphs etc. If you choose to Data visualization then Form layout will not be prepared and vice-versa.
@@ -91,7 +91,7 @@ We can create a new graph with Name, type, Operation code, and field name, Data 
 * You can name the unique field and can choose what to display on x-axis.
 * In **Category**, You can give names of categories that will be there on your graph. We can add Label name and can choose different colors for them which will be represented on the graph.
 * By selecting **Filter** we can sort our data and can even apply the filter to any category in the data visualization. For eg, we can apply filter like Sort the data from Day one to month end or data of half month etc.
-![Advance setting](./assets/data-visualization.png)
-![Advance setting](./assets/data-category.png)
+![Data visualization](./assets/data-visualization.png)
+![Data Visualization](./assets/data-category.png)
 
 

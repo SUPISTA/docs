@@ -1,8 +1,8 @@
 {
   "docs": {
-    "User Designation": ["doc1"],
-    "App Setting": ["doc2"],
-    "User Configuration": ["doc3"],
+    "User Designations": ["doc1"],
+    "App Settings": ["doc2"],
+    "Configuration Layout": ["doc3"],
     "NEW Category": ["doc42"]
   },
   "docs-other": {

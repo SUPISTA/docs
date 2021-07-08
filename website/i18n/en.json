@@ -6,12 +6,12 @@
     "tagline": "documentation for supista",
     "docs": {
       "doc1": {
-        "title": "User Designation",
-        "sidebar_label": "what is user designation?"
+        "title": "User Designations",
+        "sidebar_label": "what is user designations?"
       },
       "doc2": {
-        "title": "App Setting",
-        "sidebar_label": "What is app setting?"
+        "title": "App Settings",
+        "sidebar_label": "What is App settings?"
       },
       "doc3": {
         "title": "Config Layout",
@@ -34,7 +34,7 @@
     "categories": {
       "User Designation": "User Designation",
       "App Setting": "App Setting",
-      "User Configuration": "User Configuration",
+      "Configuration Layout": "Configuration Layout",
       "NEW Category": "NEW Category",
       "First Category": "First Category"
     }
